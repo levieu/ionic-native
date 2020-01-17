@@ -38,6 +38,12 @@ export interface FingerprintOptions {
    */
   disableBackup?: boolean;
 
+  /**
+     * Secret password. Only for android
+     * Subtitle in biometric Prompt (android only)
+     * @default null
+    */
+   clientSecret?: string;
 }
 
 /**
